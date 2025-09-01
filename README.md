@@ -7,18 +7,18 @@ This project aims to predict future oil prices using various time series forecas
 ## Dataset
 
 * `DCOILWTICO.csv`: Raw data for WTI crude oil prices.
-* `oil_price_cleaned.csv`: Cleaned and preprocessed data used for modeling.
+* `oil_price_cleaned.csv`: Cleaned and preprocessed data used for modelling.
 
 ## Methodology
 
 1.  **Data Preprocessing (`data_preprocessing.ipynb`)**
-    * Handles missing values.
+    * Handles missing values and outliers.
     * Converts the date column to `datetime` format.
-    * Prepares the data for subsequent analysis and modeling.
+    * Prepares the data for subsequent analysis and modelling.
 
 2.  **Preliminary Data Analysis (`preliminary_data_analysis.ipynb`)**
     * Conducts an initial exploration of the cleaned data.
-    * Analyzes the statistical properties of the data to identify trends, seasonality, and other patterns.
+    * Analyses the statistical properties of the data to identify trends, non-seasonality, and other patterns.
 
 3.  **Modeling**
     * **ARIMA (`arima.ipynb`)**
