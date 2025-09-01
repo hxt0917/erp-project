@@ -2,10 +2,10 @@
 
 ## Introduction
 
-This project aims to predict future oil prices using various time series forecasting models. The project begins with data preprocessing, followed by exploratory data analysis, and then implements several models, including ARIMA, SVR, SVC, and LSTM (for both regression and classification).
+This project aims to predict future oil prices using various time series forecasting models. The project begins with data preprocessing, followed by exploratory data analysis, and then implements several models, including ARIMA, SVR, SVC, and LSTM (for both regression and classification). The full implementation code is also available via the following GitHub repository: https://github.com/hxt0917/erp-project/tree/main
 
 
-## Dataset
+## Dataset Description
 
 * `DCOILWTICO.csv`: Raw data for WTI crude oil prices.
 * `oil_price_cleaned.csv`: Cleaned and preprocessed data used for modelling.
@@ -41,7 +41,11 @@ It is recommended to run the Jupyter Notebook files in the following order:
 2.  `preliminary_data_analysis.ipynb`
 3.  Any of the modelling notebooks (`arima.ipynb`, `svr.ipynb`, `svc.ipynb`, `lstm_regression.ipynb`, `lstm_classification.ipynb`).
 
-## License
+## Requirements
+The project was developed in **Python 3.10+**.  
+All dependencies are listed in `requirements.txt`.
 
-This project is released for academic purposes only. Please refer to the ERP Project for further details.
+To install:
+```bash
+pip install -r requirements.txt
 ---
