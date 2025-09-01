@@ -1,8 +1,9 @@
-# ERP Project - Oil Price Prediction
+# ERP Project - Crude Oil Price Prediction
 
 ## Introduction
 
-This project aims to predict future oil prices using various time series forecasting models. The project begins with data preprocessing, followed by exploratory data analysis, and then implements several models, including ARIMA, SVR, SVC, and LSTM (for both regression and classification).
+This project aims to predict future oil prices using various time series forecasting models. The project begins with data preprocessing, followed by exploratory data analysis, and then implements several models, including ARIMA, SVR, SVC, and LSTM (for both regression and classification). The full implementation code is also available via the following GitHub repository: https://github.com/hxt0917/erp-project/tree/main
+
 
 ## Dataset
 
@@ -22,7 +23,7 @@ This project aims to predict future oil prices using various time series forecas
 
 3.  **Modeling**
     * **ARIMA (`arima.ipynb`)**
-        * Implements the Autoregressive Integrated Moving Average (ARIMA) model, a classic time series forecasting method.
+        * Implements the Autoregressive Integrated Moving Average (ARIMA) model, a classic time series forecasting method for both Regression and Classification.
     * **SVR (`svr.ipynb`)**
         * Uses Support Vector Regression (SVR) to predict continuous oil prices.
     * **SVC (`svc.ipynb`)**
