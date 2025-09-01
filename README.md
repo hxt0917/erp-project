@@ -38,6 +38,9 @@ It is recommended to run the Jupyter Notebook files in the following order:
 
 1.  `data_preprocessing.ipynb`
 2.  `preliminary_data_analysis.ipynb`
-3.  Any of the modeling notebooks (`arima.ipynb`, `svr.ipynb`, `svc.ipynb`, `lstm_regression.ipynb`, `lstm_classification.ipynb`).
+3.  Any of the modelling notebooks (`arima.ipynb`, `svr.ipynb`, `svc.ipynb`, `lstm_regression.ipynb`, `lstm_classification.ipynb`).
 
+## License
+
+This project is released for academic purposes only. Please refer to the ERP Project for further details.
 ---
