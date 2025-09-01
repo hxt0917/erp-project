@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to predict future oil prices using various time series forecasting models. The project begins with data preprocessing, followed by exploratory data analysis, and then implements several models, including ARIMA, SVR, SVC, and LSTM (for both regression and classification). The full implementation code is also available via the following GitHub repository: https://github.com/hxt0917/erp-project/tree/main
+This project aims to predict future oil prices using various time series forecasting models. The project begins with data preprocessing, followed by exploratory data analysis, and then implements several models, including ARIMA, SVR, SVC, and LSTM (for both regression and classification).
 
 
 ## Dataset Description
